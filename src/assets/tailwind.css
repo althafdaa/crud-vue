@@ -1,0 +1,13 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.router-link-active {
+  @apply border-b-2 border-blue-500 pb-2;
+}
+
+.router-link-exact-active {
+  @apply border-b-2 border-blue-500 pb-2;
+}
